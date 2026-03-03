@@ -38,10 +38,10 @@ Ce projet a pour objectif d’analyser des données de précipitations provenant
 
 Calcule :
 
-Ville avec précipitations minimales
-Moyenne par mois
-Moyenne par ville
-Totaux trimestriels
+* Ville avec précipitations minimales
+* Moyenne par mois
+* Moyenne par ville
+* Totaux trimestriels
 
 Utilise uniquement des opérations matricielles vectorisées.
 
@@ -49,25 +49,24 @@ Utilise uniquement des opérations matricielles vectorisées.
 
 Même logique que NumPy mais avec :
 
-DataFrames
-Index nommés
-Résultats plus interprétables
+* DataFrames
+* Index nommés
+* Résultats plus interprétables
 
 ### 3- Transformation et Analyse Complète (monthly_totals.py)
 
-Nettoyage et Agrégation : Conversion des dates (YYYY-MM), groupby par station/mois et passage au format "wide" via pivot().
+* Nettoyage et Agrégation : Conversion des dates (YYYY-MM), groupby par station/mois et passage au format "wide" via pivot().
 
-Distances Géographiques : Utilisation de GeoPy pour le calcul pairwise avec pdist et squareform.
+* Distances Géographiques : Utilisation de GeoPy pour le calcul pairwise avec pdist et squareform.
 
-Corrélations : Implémentation manuelle de la corrélation de Pearson et comparaison avec DataFrame.corr().
+* Corrélations : Implémentation manuelle de la corrélation de Pearson et comparaison avec DataFrame.corr().
 
 
 ###  Outils & Concepts Clés
-Langage : Python 3.9+
 
-Librairies : NumPy, Pandas, SciPy, GeoPy, Jupyter Notebook.
-
-Concepts : GroupBy, Pivot, Corrélation de Pearson, Distance géodésique, Benchmarking.
+* Langage : Python 3.9+
+* Librairies : NumPy, Pandas, SciPy, GeoPy, Jupyter Notebook.
+* Concepts : GroupBy, Pivot, Corrélation de Pearson, Distance géodésique, Benchmarking.
 
 ###  Installation & Exécution
 
