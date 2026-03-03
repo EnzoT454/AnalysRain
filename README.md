@@ -9,7 +9,6 @@ Ce projet a pour objectif d’analyser des données de précipitations provenant
 * **Statistiques :** Calcul des précipitations moyennes et trimestrielles.
 * **Géospatial :** Mesure des distances géographiques entre les stations.
 * **Analyse de données :** Calcul de la corrélation des précipitations quotidiennes.
-* **Optimisation :** Comparaison des performances entre l'implémentation vectorisée et les boucles Python.
 
 > Ce projet met l’accent sur la **vectorisation**, la manipulation efficace de DataFrames et les bonnes pratiques en science des données.
 
@@ -65,8 +64,8 @@ Même logique que NumPy mais avec :
 ###  Outils & Concepts Clés
 
 * Langage : Python 3.9+
-* Librairies : NumPy, Pandas, SciPy, GeoPy, Jupyter Notebook.
-* Concepts : GroupBy, Pivot, Corrélation de Pearson, Distance géodésique, Benchmarking.
+* Librairies : NumPy, Pandas, SciPy, GeoPy.
+* Concepts : GroupBy, Pivot, Corrélation de Pearson, Distance géodésique.
 
 ###  Installation & Exécution
 
@@ -101,7 +100,7 @@ python monthly_totals.py
 
 ###  Résultats Attendus
 
-Des tables mensuelles nettoyées et structurées.Une matrice $N \times N$ des distances entre stations.Une matrice $N \times N$ des corrélations de précipitations.Une confirmation empirique de la supériorité de la vectorisation sur les boucles.
+Des tables mensuelles nettoyées et structurées.Une matrice $N \times N$ des distances entre stations.Une matrice $N \times N$ des corrélations de précipitations.
 
 
 
